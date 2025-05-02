@@ -6,7 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 export default defineConfig({
 	root: './src',
 	publicDir: resolve(__dirname, 'public'),
-	base: '/draggable-demo/',
+	base: '/gsap-draggable-demo/',
 	plugins: [glsl(), tsconfigPaths()],
 	server: {
 		host: true,
