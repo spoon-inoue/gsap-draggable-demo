@@ -1,0 +1,58 @@
+.fnt-inconsolata {
+	font-family: 'Inconsolata', monospace;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #0e0e0e;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	height: 100dvh;
+}
+
+canvas {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.box-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+
+	.box {
+		position: absolute;
+
+		.screen {
+			border: 1px solid rgb(from #fff r g b / 0.3);
+			width: 300px;
+			aspect-ratio: 1;
+		}
+
+		p {
+			margin-left: auto;
+			width: fit-content;
+			font-size: 16px;
+			color: #fff;
+		}
+	}
+}

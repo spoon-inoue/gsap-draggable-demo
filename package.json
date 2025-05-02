@@ -1,0 +1,29 @@
+{
+	"name": "draggable-demo",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.3",
+		"@types/three": "^0.176.0",
+		"prettier": "^3.5.3",
+		"typescript": "~5.7.2",
+		"vite": "^6.3.1",
+		"vite-plugin-glsl": "^1.4.1",
+		"vite-tsconfig-paths": "^5.1.4"
+	},
+	"volta": {
+		"node": "22.15.0"
+	},
+	"dependencies": {
+		"gsap": "^3.13.0",
+		"tempus": "^1.0.0-dev.11",
+		"three": "^0.176.0"
+	}
+}
